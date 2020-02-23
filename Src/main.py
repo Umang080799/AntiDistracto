@@ -13,14 +13,13 @@ import dlib
 import cv2
 sys.path.append('../../')
 from drowsiness_detect import *
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/umanggupta/Downloads/skilled-drake-268307-9d4ac42fef3e.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/Users/umanggupta/Downloads/My First Project-22ad1122a76b.json"
 from google.cloud import automl
 from config import *
 
 project_id = PROJECT_ID
 model_id = MODEL_ID
 file_path = "/Users/umanggupta/Downloads/sleep.png"
-#file_path = "/Users/umanggupta/Downloads/profile-view-handsome-young-man-driving-his-car-city-street-handsome-young-guy-driving-his-car-122125130.jpg"
 
 
 def func():
